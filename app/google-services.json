@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "695278695243",
+    "firebase_url": "https://u-hackademia-davao-durian.firebaseio.com",
+    "project_id": "u-hackademia-davao-durian",
+    "storage_bucket": "u-hackademia-davao-durian.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695278695243:android:d5bb97f10302934e",
+        "android_client_info": {
+          "package_name": "edu.sti.davaodurian.e_rrigate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695278695243-6cbre7tcgbg809qcp3b8fmivh6gdn9e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxc7WH8T09PbNKrggZqjScHUWD23gQffk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

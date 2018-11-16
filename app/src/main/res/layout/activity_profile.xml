@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imgView_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgView_logo"
+        android:text="E-rriGATE"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="389dp" />
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_marginTop="50dp"
+        android:padding="0dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_btn"
+            android:paddingBottom="20dp"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp">
+
+            <TableRow
+                android:background="#d2cfcf"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp">
+
+                <TextView
+
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/LightMid"
+                    android:padding="5dp"
+                    android:text="Aprilyn Gimay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp"
+
+                android:background="#d2cfcf"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/LightMid"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Farmer chu chu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp">
+
+                <ImageButton
+                    android:id="@+id/imgBtnHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/line"
+                    android:background="@drawable/bg_imgbtn"
+                    tools:srcCompat="@drawable/ic_home_black_24dp"
+                    android:padding="20dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginLeft="-00dp"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageButton
+                android:id="@+id/imgBtnMonitor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/bg_imgbtn"
+                android:padding="20dp"
+                tools:srcCompat="@drawable/ic_desktop_windows_black_24dp" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/line"
+                    android:layout_marginLeft="-70dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@drawable/bg_imgbtn"
+                    android:padding="20dp"
+                    tools:srcCompat="@drawable/ic_error_outline_black_24dp" />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

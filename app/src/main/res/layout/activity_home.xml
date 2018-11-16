@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/tv_title1"
+        android:text="@string/tv_title1"
+        android:layout_marginTop="30dp"
+        android:textSize="50sp"
+        android:background="@color/LightBottom"
+
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_irrigation"
+        android:layout_below="@+id/tv_title1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="wrap_content">
+
+
+    </Spinner>
+
+
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_irrigation"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvdevicestatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvdevicestatus"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_build_black_24dp"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="40dp"
+            />
+
+        <ToggleButton
+            android:id="@+id/toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_imgbtn"
+            android:layout_marginLeft="45dp"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_waterlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_waterlevel"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv_waterlevel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/tv_waterlevel2"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WEATHER"
+                android:textSize="30dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/weather"
+
+                />
+
+        </LinearLayout>
+
+</RelativeLayout>
